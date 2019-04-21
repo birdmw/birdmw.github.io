@@ -1,0 +1,65 @@
+#title {
+    display: inline-block;
+    background-color: darkorange;
+    font-weight: bold;
+    color: white;
+    padding-top: 500;
+    padding-bottom: 500;
+    font-size: 25px;
+}
+
+body {
+    background-image: url("https://previews.123rf.com/images/vonuk/vonuk1410/vonuk141000001/32578088-spin-circles-illusion-optical-illusion-optical-illusion-spin-cycle-optical-illusion-background-patte.jpg");
+}
+
+#instructions {
+    color: green;
+    background-color: peachpuff;
+    width: 500px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top: 25px;
+    padding-bottom: 100px;
+}
+
+#scorebox {
+    color: purple;
+    background-color: green;
+    width: 10px;
+    height: 70px;
+    margin: 15px;
+    margin-right: 0px;
+}
+
+#winlossbox {
+    background-color: lightskyblue;
+    width: 25px;
+    height: 70px;
+    margin: 15px;
+    margin-left: 15px;
+    padding-top: 5px;
+}
+img {
+    border: 4px solid #ddd;
+    border-radius: 4px;
+    border-color: black;
+    padding: Auto;
+    width: 150px;
+    height: 150px;
+  }
+
+#total_score_title_box{
+    width:Auto;
+    height:Auto;
+    background-color: teal;
+    font-weight: bold;
+    color:white;
+}
+
+#total_score_box{
+    width:Auto;
+    margin-top:10px;
+    height:100px;
+    background-color: teal;
+    color:white;
+}

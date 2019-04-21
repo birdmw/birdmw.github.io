@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Crystal Game!</title>
+</head>
+
+<body class="m-0 p-0" id="body">
+
+    <div id="content" class="container m-0 p-0">
+        <div class="row m-0 p-0">
+            <div class="col-sm m-0 p-2">
+                <div class="row col-sm">
+                    <div id="title" class="pt-3 pb-3 pl-1 pr-1">CrystalsCollector!</div>
+                </div>
+                <div class="row col-sm">
+                    <div id="instructions" class="pl-1 pr-1">
+                        <p>You will be given a rando number at the start of the game.</p>
+                        <p>There are four crystals below. By clicking on a crystal you will add a specific amount of
+                            points to your total score.</p>
+                        <p>You win the game by matching your total score to a random number, you lose the game if your
+                            total score goes above the random number.</p>
+                        <p>The value of each crystal is hidden from you until you click on it.</p>
+                        <p>Each time when the game starts, the game will change the values of each crystal.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3" id="scorebox">
+                        <row id="target_score">
+                            0
+                        </row>
+                    </div>
+                    <div class="col-3" id="winlossbox">
+                        <row id="winrow">
+                            Wins: 0
+                        </row>
+                        <row id="lossrow">
+                            Losses: 0
+                        </row>
+
+
+                    </div>
+                </div>
+                <div class="row four_pix ml-1">
+                    <div class="col p-1 m-1" id="img1_row">
+                        <img src="https://image.shutterstock.com/image-photo/hand-holding-crystal-ball-optical-450w-766580338.jpg"
+                            style="width:150px">
+                    </div>
+                    <div class="col p-1 m-1" id="img2_row">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDWl8apfYrPDMq_qF0pB295kCrWtatTps4Ximui-MQymICGvGDIw"
+                            style="width:150px">
+                    </div>
+                    <div class="col p-1 m-1" id="img3_row">
+                        <img src="https://usatunofficial.files.wordpress.com/2018/09/screen-shot-2018-09-06-at-12-03-35-pm.jpg?w=1000&h=600&crop=1"
+                            style="width:150px">
+                    </div>
+                    <div class="col p-1 m-1" id="img4_row">
+                        <img src="https://media.fooducate.com/products/images/180x180/00ED0282-7B3C-9647-A997-645ADF2FD802.jpg"
+                            style="width:150px">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4 ml-4" id="total_score_title_box">
+            <row class="m-0" id="total_score_box_title">
+                Your Total Score is:
+            </row>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4 ml-4" id="total_score_box">
+            <row class="m-0" id="total_score_title">
+                0
+            </row>
+
+        </div>
+    </div>
+
+
+    <script src="assets/javascript/game.js">
+    </script>
+
+
+
+</body>
+
+</html>
