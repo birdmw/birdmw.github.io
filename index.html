@@ -5,86 +5,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <!-- jquery -->
-    <script src="https://code.jquery.com/jquery-3.4.0.js"
-        integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo=" crossorigin="anonymous"></script>
-
-    <!-- reset css -->
-    <link href="assets/css/reset.css" rel="stylesheet" type="text/css" />
-
-    <!-- ajax -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
-    <!-- style css -->
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
-
-    <title>Homework, duh!</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="resources/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="resources/css/style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
-    <!-- You'll create a trivia form with multiple choice or true/false options (your choice).
-
-        The player will have a limited amount of time to finish the quiz.
-        
-        The game ends when the time runs out. The page will reveal the number of questions that players answer correctly and incorrectly.
-        Don't let the player pick more than one answer per question.
-        
-        Don't forget to include a countdown timer. -->
     <div class="container">
         <div class="row">
-            <div class="col fact_title">
-                <h1>Aye-Aye Facts!!!</h1>
-                <h2 id="clock"></h2>
-                <h3> Score:</h3>
-                <h4 id="correct"></h4>
-                <h4 id="incorrect"></h4>
+            <div class="col-8" id="buttonrow">
+                <div class="row" id="buttonbar">
+                </div>
             </div>
-            <div class="q1">
-                <p>Question 1:</p>
-                <p>Did you know that the Aye Aye can see twice as far with it's eyes closed as it can with it's eyes
-                    open?
-                </p>
-                <form>
-                    <input type="radio" name="q1_answer" value="yes" checked> Yes<br>
-                    <input type="radio" name="q1_answer" value="no"> No<br>
-                    <input id="q1_submit" type="button" value="Submit">
-                </form>
-                <p id="q1_response"></p>
-            </div>
-            <div class="q2">
-                <p>Question 2:</p>
-                <p>What are you wearing right now?</p>
-                <form>
-                    <input type="radio" name="q2_answer" value="inappropriate" checked> I don't think that's
-                    appropriate<br>
-                    <input type="radio" name="q2_answer" value="chaps"> Ass-less chaps<br>
-                    <input id="q2_submit" type="button" value="Submit">
-                </form>
-                <p id="q2_response"></p>
-            </div>
-            <div class="q3">
-                <p>Question 3:</p>
-                <p>Ayeayes are named after their distict ayes</p>
-                <form>
-                    <input type="radio" name="q3_answer" value="real" checked> real talk<br>
-                    <input type="radio" name="q3_answer" value="facts"> facts<br>
-                    <input type="radio" name="q3_answer" value="garbage"> That's garbage<br>
-                    <input id="q3_submit" type="button" value="Submit">
-                </form>
-                <p id="q3_response"></p>
-            </div>
+            <div class="col-4" id="searcher">
+                <row id="search-title">
+                    Add a thingy:
+                </row>
+                <row>
+
+                    <div class="col">
+                        <span>
+                            <input id="textin" type="text" placeholder="Search..">
+                            <button id="add">Add</button>
+                        </span>
+                    </div>
+
+                </row>
 
 
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-8" id="images">
+            </div>
 
         </div>
     </div>
-    <!-- javascript -->
-    <script src="assets/javascript/app.js"></script>
 </body>
+
+<script src="resources/javascript/script.js"></script>
 
 </html>

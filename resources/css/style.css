@@ -1,0 +1,29 @@
+.container {
+    background-color: white;
+}
+
+.btn {
+    margin: 5px;
+    background-color: teal;
+    color: white;
+    font-family: Impact;
+    font-size: 26px;
+}
+
+#buttonbar {
+    background-color: gainsboro;
+}
+
+#searcher {
+    background-color: blue;
+}
+
+#search-title{
+    color: yellowgreen;
+    font-weight: bold;
+}
+img {
+    padding: 5x;
+    border: 5px;
+    margin: 5px;
+}
