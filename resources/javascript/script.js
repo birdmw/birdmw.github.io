@@ -18,17 +18,16 @@ var populate = function () {
 
 populate();
 
-$("#add").click(function () {
+$("#add").on("click", function () {
     topic_txt = $("#textin").val()
     topic.push(topic_txt);
-    var b = $('<button>', { class: 'btn buttonlist', type: "button", value: topic_txt});
-        b.text(topic_txt);
-        $("#buttonbar").append(b);
-    }
+    populate();
+}
 );
 
 // When the user clicks on a button, the page should grab 10 static, non-animated gif images from the GIPHY API and place them on the page.
-$(".buttonlist").click(function () {
+$(".buttonlist").on("click", function () {
+    console.log("buttonlist was clicked")
     texty = $(this).val();
     // q
     // limit
